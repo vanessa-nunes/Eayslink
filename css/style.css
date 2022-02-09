@@ -54,7 +54,7 @@ a {
     width: 100%;
     background: #111;
     color: #eee;
-    height: 100px;
+    height: auto;
     position: relative;
 }
 

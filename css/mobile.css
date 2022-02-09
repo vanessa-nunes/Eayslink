@@ -20,6 +20,10 @@
 
 /* Showcase */
 
+#showcase {
+    margin-top: 100px;
+}
+
 #showcase-container {
     padding: 40px;
 }

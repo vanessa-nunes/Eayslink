@@ -22,3 +22,12 @@ window.addEventListener("scroll", function () {
         document.querySelector("#navbar").style.opacity = 1;
     }
 });
+
+
+function mudarValor(func, cont) {
+    document.getElementById("conteudo" + String(cont)).innerHTML = func;
+}
+
+function devolverValor(nome, cont) {
+    document.getElementById("conteudo" + String(cont)).innerHTML = nome;
+}

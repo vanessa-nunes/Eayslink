@@ -56,6 +56,7 @@ a {
     color: #eee;
     height: auto;
     position: relative;
+    padding: 20px;
 }
 
 #navbar-container {
@@ -244,4 +245,75 @@ a {
     color: #eee;
     padding: 30px;
     text-align: center;
+}
+
+#footer2 {
+    background: #222;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#grid {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    min-width: none;
+    background: black url('../img/fundo.png') no-repeat center center/cover;
+    background-size: cover;
+
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 50px;
+    padding: 10px;
+    padding-bottom: 200px;
+}
+
+.grid-item {
+    display: grid;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.grid-item p {
+    background: rgba( 0, 0, 0, .6);
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2/3;
+    align-self: end;
+    border-radius: 0px, 0px, 20px, 20px;
 }

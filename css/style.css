@@ -330,3 +330,9 @@ nav ul li a:hover{
     grid-row: 3;
     align-self: end;
 }
+
+.row {
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}

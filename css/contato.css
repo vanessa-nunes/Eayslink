@@ -10,3 +10,8 @@
 	border: 1px solid GREY;
     border-radius: 25px;
 	}
+
+.showcase-2{
+    background: black url('../img/fundo.png') no-repeat center center/cover;
+    background-size: cover;
+}
